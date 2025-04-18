@@ -108,8 +108,8 @@ for idx, row in data.iterrows():
             f.write(original_code)
 
         # Save the fixed code
-        # with open(vuln_dir / f"sample_{idx}_fixed.py", "w", encoding="utf-8") as f:
-        #     f.write(fixed_code)
+        with open(vuln_dir / f"sample_{idx}_fixed.py", "w", encoding="utf-8") as f:
+            f.write(fixed_code)
 
         # Save metadata as JSON-serializable data
         metadata = {

@@ -1,0 +1,312 @@
+import json
+from typing import Optional
+
+import Adyen
+from babel.numbers import get_currency_precision
+from django.core.handlers.wsgi import WSGIRequest
+from django.http import HttpResponse, JsonResponse
+from graphql_relay import from_global_id
+
+from ....checkout.models import Checkout
+from ....core.prices import quantize_price
+from ....graphql.core.scalars import Decimal
+from ....plugins.base_plugin import BasePlugin, ConfigurationTypeField
+from ... import PaymentError, TransactionKind
+from ...interface import GatewayConfig, GatewayResponse, PaymentData, PaymentGateway
+from ...models import Transaction
+from ..utils import get_supported_currencies
+from .utils import (
+    api_call,
+    request_data_for_gateway_config,
+    request_data_for_payment,
+    request_for_payment_refund,
+)
+
+GATEWAY_NAME = "Adyen"
+
+
+def require_active_plugin(fn):
+    def wrapped(self, *args, **kwargs):
+        previous = kwargs.get("previous_value", None)
+        if not self.active:
+            return previous
+        return fn(self, *args, **kwargs)
+
+    return wrapped
+
+
+FAILED_STATUSES = ["refused", "error", "cancelled"]
+
+
+class AdyenGatewayPlugin(BasePlugin):
+
+    PLUGIN_ID = "mirumee.payments.adyen"
+    PLUGIN_NAME = GATEWAY_NAME
+    DEFAULT_CONFIGURATION = [
+        {"name": "Merchant Account", "value": None},
+        {"name": "API key", "value": None},
+        {"name": "Supported currencies", "value": ""},
+        {"name": "Return Url", "value": ""},
+        {"name": "Origin Key", "value": ""},
+        {"name": "Origin Url", "value": ""},
+        {"name": "Live", "value": ""},
+        {"name": "Enable notifications", "value": True},
+        {"name": "Automatically mark payment as a capture", "value": True},
+        {"name": "HMAC secret key", "value": ""},
+        {"name": "Notification user", "value": ""},
+        {"name": "Notification password", "value": ""},
+    ]
+
+    CONFIG_STRUCTURE = {
+        "API key": {
+            "type": ConfigurationTypeField.SECRET,
+            "help_text": (
+                "To submit payments to Adyen, you'll be making API requests that are "
+                "authenticated with an API key. You can generate API keys on your "
+                "Customer Area."
+            ),
+            "label": "API key",
+        },
+        "Merchant Account": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": "Yout merchant account name.",
+            "label": "Merchant Account",
+        },
+        "Supported currencies": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": "Determines currencies supported by gateway."
+            " Please enter currency codes separated by a comma.",
+            "label": "Supported currencies",
+        },
+        "Return Url": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": "",  # FIXME define them as per channel
+            "label": "Return Url",
+        },
+        "Origin Key": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": "",  # FIXME define them as per channel
+            "label": "Origin Key",
+        },
+        "Origin Url": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": "",  # FIXME define them as per channel
+            "label": "Origin Url",
+        },
+        "Live": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": (
+                "Live it blank when you want to use test env. To communicate with the"
+                " Adyen API you should submit HTTP POST requests to corresponding "
+                "endpoints. These endpoints differ for test and live accounts, and also"
+                " depend on the data format (SOAP, JSON, or FORM) you use to submit "
+                "data to the Adyen payments platform. "
+                "https://docs.adyen.com/development-resources/live-endpoints"
+            ),
+            "label": "Live",
+        },
+        "Enable notifications": {
+            "type": ConfigurationTypeField.BOOLEAN,
+            "help_text": (
+                "Enable the support for processing the Adyen's webhooks. The Saleor "
+                "webhook url is <your-backend-url>/plugins/mirumee.payments.adyen/"
+                "webhooks/ "
+                "https://docs.adyen.com/development-resources/webhooks"
+            ),
+            "label": "Enable notifications",
+        },
+        "Automatically mark payment as a capture": {
+            "type": ConfigurationTypeField.BOOLEAN,
+            "help_text": (
+                "Saleor by default doesn't receive notification which payment has "
+                "status capture, all sucess payment can be marked as a capture by "
+                "default."
+                "A payment that is automatically captured does not trigger a "
+                "separate CAPTURE notification. If you are using delayed automatic "
+                "capture (by having a Capture Delay of a fixed number of days), you "
+                "can optionally receive CAPTURE notifications. To enable this "
+                "functionality, contact with Adyen Support Team."
+            ),
+            "label": "Automatically mark payment as a capture",
+        },
+        "HMAC secret key": {
+            "type": ConfigurationTypeField.SECRET,
+            "help_text": (
+                "Provide secret key generated on Adyen side."
+                "https://docs.adyen.com/development-resources/webhooks#set-up-notificat"
+                "ions-in-your-customer-area"
+            ),
+            "label": "HMAC secret key",
+        },
+        "Notification user": {
+            "type": ConfigurationTypeField.STRING,
+            "help_text": (
+                "Base User provided on the Adyen side for authenticate incoming "
+                "notifications. https://docs.adyen.com/development-resources/webhooks#"
+                "set-up-notifications-in-your-customer-area"
+            ),
+            "label": "Notification user",
+        },
+        "Notification password": {
+            "type": ConfigurationTypeField.SECRET,
+            "help_text": (
+                "User password provided on the Adyen side for authenticate incoming "
+                "notifications. https://docs.adyen.com/development-resources/webhooks#"
+                "set-up-notifications-in-your-customer-area"
+            ),
+            "label": "Notification password",
+        },
+    }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        configuration = {item["name"]: item["value"] for item in self.configuration}
+        self.config = GatewayConfig(
+            gateway_name=GATEWAY_NAME,
+            auto_capture=True,  # FIXME check this
+            supported_currencies=configuration["Supported currencies"],
+            connection_params={
+                "api_key": configuration["API key"],
+                "merchant_account": configuration["Merchant Account"],
+                "return_url": configuration["Return Url"],
+                "origin_key": configuration["Origin Key"],
+                "origin_url": configuration["Origin Url"],
+            },
+        )
+        api_key = self.config.connection_params["api_key"]
+        self.adyen = Adyen.Adyen(xapikey=api_key)
+
+    def webhook(self, request: WSGIRequest, path: str, previous_value) -> HttpResponse:
+
+        print(request.body)
+        return HttpResponse("[accepted]")
+
+    def _get_gateway_config(self) -> GatewayConfig:
+        return self.config
+
+    @require_active_plugin
+    def token_is_required_as_payment_input(self, previous_value):
+        return False
+
+    @require_active_plugin
+    def get_payment_gateway_for_checkout(
+        self, checkout: "Checkout", previous_value,
+    ) -> Optional["PaymentGateway"]:
+
+        config = self._get_gateway_config()
+        request = request_data_for_gateway_config(
+            checkout, config.connection_params["merchant_account"]
+        )
+        response = api_call(request, self.adyen.checkout.payment_methods)
+        return PaymentGateway(
+            id=self.PLUGIN_ID,
+            name=self.PLUGIN_NAME,
+            config=[
+                {
+                    "field": "origin_key",
+                    "value": config.connection_params["origin_key"],
+                },
+                {
+                    "field": "config",
+                    "value": json.dumps(response.message.get("paymentMethods", {})),
+                },
+            ],
+            currencies=self.get_supported_currencies([]),
+        )
+
+    @require_active_plugin
+    def process_payment(
+        self, payment_information: "PaymentData", previous_value
+    ) -> "GatewayResponse":
+        request_data = request_data_for_payment(
+            payment_information,
+            return_url=self.config.connection_params["return_url"],
+            merchant_account=self.config.connection_params["merchant_account"],
+            origin_url=self.config.connection_params["origin_url"],
+        )
+
+        result = api_call(request_data, self.adyen.checkout.payments)
+        is_success = result.message["resultCode"].strip().lower() not in FAILED_STATUSES
+        return GatewayResponse(
+            is_success=is_success,
+            action_required="action" in result.message,
+            kind=TransactionKind.AUTH,
+            amount=payment_information.amount,
+            currency=payment_information.currency,
+            transaction_id=result.message.get("pspReference", ""),
+            error=result.message.get("refusalReason"),
+            raw_response=result.message,
+        )
+
+    @require_active_plugin
+    def get_payment_config(self, previous_value):
+        return []
+
+    @require_active_plugin
+    def get_supported_currencies(self, previous_value):
+        config = self._get_gateway_config()
+        return get_supported_currencies(config, GATEWAY_NAME)
+
+    @require_active_plugin
+    def confirm_payment(
+        self, payment_information: "PaymentData", previous_value
+    ) -> "GatewayResponse":
+        additional_data = payment_information.data
+        result = api_call(additional_data, self.adyen.checkout.payments)
+        is_success = result.message["resultCode"].strip().lower() not in FAILED_STATUSES
+
+        return GatewayResponse(
+            is_success=is_success,
+            action_required="action" in result.message,
+            kind=TransactionKind.CONFIRM,
+            amount=payment_information.amount,
+            currency=payment_information.currency,
+            transaction_id=result.get("pspReference", ""),
+            error=result.message.get("refusalReason"),
+            raw_response=result.message,
+        )
+
+    @require_active_plugin
+    def refund_payment(
+        self, payment_information: "PaymentData", previous_value
+    ) -> "GatewayResponse":
+
+        _type, payment_id = from_global_id(payment_information.payment_id)
+        transaction = (
+            Transaction.objects.filter(
+                payment__id=payment_id, kind=TransactionKind.CAPTURE
+            )
+            .exclude(token__isnull=True, token__exact="")
+            .last()
+        )
+
+        if not transaction:
+            raise PaymentError("Cannot find a payment reference to refund.")
+
+        request = request_for_payment_refund(
+            payment_information=payment_information,
+            merchant_account=self.config.connection_params["merchant_account"],
+            token=transaction.token,
+        )
+        result = api_call(request, self.adyen.payment.refund)
+
+        return GatewayResponse(
+            is_success=True,
+            action_required=False,
+            kind=TransactionKind.REFUND_ONGOING,
+            amount=payment_information.amount,
+            currency=payment_information.currency,
+            transaction_id=result.message.get("pspReference", ""),
+            error="",
+            raw_response=result.message,
+        )
+
+    def capture_payment(
+        self, payment_information: "PaymentData", previous_value
+    ) -> "GatewayResponse":
+        pass
+
+    def void_payment(
+        self, payment_information: "PaymentData", previous_value
+    ) -> "GatewayResponse":
+        pass
