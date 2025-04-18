@@ -56,4 +56,4 @@ jobs:
           args: > # Use > for multi-line string without newlines
             -Dsonar.projectKey=synth-vuln-fixes
             -Dsonar.sources=./data/AccessControl
-            -Dsonar.verbose=true # Enable verbose logging
+            -Dsonar.verbose=true
