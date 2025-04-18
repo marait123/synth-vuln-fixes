@@ -55,4 +55,4 @@ jobs:
         with:
           args: > # Use > for multi-line string without newlines
             -Dsonar.projectKey=synth-vuln-fixes
-            -Dsonar.sources=.
+            -Dsonar.sources=./data/AccessControl
