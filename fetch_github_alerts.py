@@ -7,16 +7,18 @@ from datetime import datetime
 # GitHub API endpoint for code scanning alerts
 ALERTS_URL_TEMPLATE = "https://api.github.com/repos/{owner}/{repo}/code-scanning/alerts"
 
+
 def fetch_alerts(owner, repo, token):
     """Fetches all code scanning alerts for a given repository."""
     headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github.v3+json",
-        "X-GitHub-Api-Version": "2022-11-28" # Recommended by GitHub docs
+        "X-GitHub-Api-Version": "2022-11-28"  # Recommended by GitHub docs
     }
     alerts = []
     url = ALERTS_URL_TEMPLATE.format(owner=owner, repo=repo)
-    params = {'per_page': 100, 'state': 'open'} # Request max results per page, only open alerts initially. Can be changed.
+    # Request max results per page, only open alerts initially. Can be changed.
+    params = {'per_page': 100, 'state': 'open'}
 
     print(f"Fetching alerts from {url}...")
 
@@ -24,8 +26,9 @@ def fetch_alerts(owner, repo, token):
         try:
             # Use params only for the first request, subsequent URLs from pagination include them
             current_params = params if params else None
-            response = requests.get(url, headers=headers, params=current_params)
-            response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+            response = requests.get(
+                url, headers=headers, params=current_params)
+            response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
             data = response.json()
             if not isinstance(data, list):
                 print(f"Error: Unexpected API response format: {data}")
@@ -36,30 +39,33 @@ def fetch_alerts(owner, repo, token):
             # Handle pagination
             if 'next' in response.links:
                 url = response.links['next']['url']
-                params = None # Params are included in the 'next' URL
+                params = None  # Params are included in the 'next' URL
             else:
-                url = None # No more pages
+                url = None  # No more pages
 
         except requests.exceptions.HTTPError as e:
             print(f"HTTP Error fetching alerts: {e}")
             print(f"Response status: {e.response.status_code}")
             print(f"Response body: {e.response.text}")
             if e.response.status_code == 404:
-                print("Repository not found or code scanning not enabled/no alerts found.")
+                print(
+                    "Repository not found or code scanning not enabled/no alerts found.")
             elif e.response.status_code == 401:
-                 print("Authentication failed. Check your GitHub token and its permissions (needs 'security_events' scope).")
+                print(
+                    "Authentication failed. Check your GitHub token and its permissions (needs 'security_events' scope).")
             elif e.response.status_code == 403:
-                 print("Forbidden. Check token permissions or rate limits.")
-            return None # Indicate failure
+                print("Forbidden. Check token permissions or rate limits.")
+            return None  # Indicate failure
         except requests.exceptions.RequestException as e:
             print(f"Network or request error fetching alerts: {e}")
-            return None # Indicate failure
+            return None  # Indicate failure
         except Exception as e:
             print(f"An unexpected error occurred during fetch: {e}")
             return None
 
     print(f"Finished fetching. Total alerts found: {len(alerts)}")
     return alerts
+
 
 def save_to_csv(alerts, filename="github_security_alerts.csv"):
     """Saves the fetched alerts to a CSV file."""
@@ -88,7 +94,9 @@ def save_to_csv(alerts, filename="github_security_alerts.csv"):
     print(f"Saving alerts to {filename}...")
     try:
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=headers, extrasaction='ignore') # Ignore extra fields from API
+            # Ignore extra fields from API
+            writer = csv.DictWriter(
+                csvfile, fieldnames=headers, extrasaction='ignore')
             writer.writeheader()
 
             for alert in alerts:
@@ -137,8 +145,10 @@ if __name__ == "__main__":
         description="Fetch GitHub Code Scanning alerts for a repository and save to CSV.",
         epilog="Example: python fetch_github_alerts.py octocat Spoon-Knife -o my_alerts.csv"
     )
-    parser.add_argument("owner", help="The owner of the GitHub repository (e.g., 'octocat').")
-    parser.add_argument("repo", help="The name of the GitHub repository (e.g., 'Spoon-Knife').")
+    parser.add_argument(
+        "owner", help="The owner of the GitHub repository (e.g., 'octocat').")
+    parser.add_argument(
+        "repo", help="The name of the GitHub repository (e.g., 'Spoon-Knife').")
     parser.add_argument(
         "-t", "--token",
         help="GitHub Personal Access Token (PAT) with 'security_events' scope. Reads from GITHUB_TOKEN environment variable if not provided."
@@ -156,14 +166,15 @@ if __name__ == "__main__":
 
     if not token:
         print("Error: GitHub token not provided.")
-        print("Please set the GITHUB_TOKEN environment variable or use the --token argument.")
+        print(
+            "Please set the GITHUB_TOKEN environment variable or use the --token argument.")
         print("The token requires the 'security_events' scope.")
         exit(1)
 
     if not args.owner or not args.repo:
-         print("Error: Repository owner and name are required.")
-         parser.print_help()
-         exit(1)
+        print("Error: Repository owner and name are required.")
+        parser.print_help()
+        exit(1)
 
     alerts_data = fetch_alerts(args.owner, args.repo, token)
 
