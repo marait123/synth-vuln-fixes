@@ -40,7 +40,12 @@ jobs:
       - name: Run Pyre
         uses: facebook/pyre-action@60697a7858f7cc8470d8cc494a3cf2ad6b06560d
         with:
-          # To customize these inputs:
-          # See https://github.com/facebook/pyre-action#inputs
           repo-directory: './'
           requirements-path: 'requirements.txt'
+
+      - name: Upload Pyre Analysis Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: pyre-results
+          path: ./pyre_results/
+          
