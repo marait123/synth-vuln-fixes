@@ -24,7 +24,7 @@ on:
     - cron: '19 17 * * 2'
 
 permissions:
-    contents: read
+  contents: read
 
 jobs:
   pysa:
@@ -48,3 +48,9 @@ jobs:
           requirements-path: 'requirements.txt'
           infer-types: true
           include-default-sapp-filters: true
+
+      - name: Upload Pysa results
+        uses: actions/upload-artifact@v3
+        with:
+          name: pysa-results
+          path: pysa-results.sarif
