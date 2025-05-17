@@ -24,7 +24,7 @@ jobs:
           arguments: >-
             -p ./
             -o json
-            -O ./horusec-output.json
+            -O ./horusec-report.json
             --information-severity=true
       - name: Horusec Output
         if: always()
