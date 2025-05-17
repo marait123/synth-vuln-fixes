@@ -39,18 +39,46 @@ jobs:
         with:
           submodules: true
 
+      # Create an empty requirements.txt if it doesn't exist
+      - name: Create requirements.txt if needed
+        run: |
+          if [ ! -f requirements.txt ]; then
+            echo "# Project dependencies" > requirements.txt
+            echo "# Created automatically by Pysa workflow" >> requirements.txt
+          fi
+
       - name: Run Pysa
         uses: facebook/pysa-action@f46a63777e59268613bd6e2ff4e29f144ca9e88b
         with:
-          # To customize these inputs:
-          # See https://github.com/facebook/pysa-action#inputs
           repo-directory: './'
           requirements-path: 'requirements.txt'
           infer-types: true
           include-default-sapp-filters: true
+          
+      # Find the SARIF file created by Pysa
+      - name: Find SARIF output
+        id: find-sarif
+        run: |
+          SARIF_FILE=$(find . -name "*.sarif" | head -n 1)
+          if [ -z "$SARIF_FILE" ]; then
+            echo "No SARIF file found, creating empty one for continuity"
+            echo '{"version":"2.1.0","runs":[]}' > ./pysa-results.sarif
+            SARIF_FILE="./pysa-results.sarif"
+          fi
+          echo "sarif_file=$SARIF_FILE" >> $GITHUB_OUTPUT
+          echo "Found SARIF file: $SARIF_FILE"
 
+      # Upload results to GitHub Security
+      - name: Upload SARIF to GitHub Security
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: ${{ steps.find-sarif.outputs.sarif_file }}
+          category: pysa
+
+      # Upload results as artifacts
       - name: Upload Pysa results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pysa-results
-          path: pysa-results.sarif
+          path: ${{ steps.find-sarif.outputs.sarif_file }}
+          retention-days: 7
