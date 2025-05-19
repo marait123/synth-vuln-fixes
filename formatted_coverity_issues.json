@@ -1,0 +1,4621 @@
+{
+    "nautobot/54abe23": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "nautobot/54abe23/files/test_customfields.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            },
+            {
+                "file_path": "nautobot/54abe23/files/test_customfields.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            },
+            {
+                "file_path": "nautobot/54abe23/files/relationships.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "frappe/497ea86": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "frappe/497ea86/files/document.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            },
+            {
+                "file_path": "frappe/497ea86/files/auto_repeat.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            }
+        ]
+    },
+    "waitress/8eba394": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "waitress/8eba394/files/receiver.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            }
+        ]
+    },
+    "omero-web/952f8e5": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/952f8e5/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "pytorch/767f6aa": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "pytorch/767f6aa/files/test_jit.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "rdiffweb/6efb995": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "rdiffweb/6efb995/files/test_rdw_templating.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "rdiffweb/d1aaa96": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "rdiffweb/d1aaa96/files/test_rdw_templating.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "yt-dlp/3121512": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "yt-dlp/3121512/files/common.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "yt-dlp/3121512/files/test_YoutubeDL.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "Mycodo/23ac5dd": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "Mycodo/23ac5dd/files/routes_general.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            },
+            {
+                "file_path": "Mycodo/23ac5dd/files/routes_general.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "TestingPlatform/7b3e7ca": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "TestingPlatform/7b3e7ca/files/helpers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "wagtail/5fe901e": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "wagtail/5fe901e/files/test_edit_page.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "django/ae35351": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "django/ae35351/files/test_views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "django/ae35351/files/test_views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "scipy/bd296e0": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "scipy/bd296e0/files/test_catalog.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "kenny2automate/a947d7c": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "kenny2automate/a947d7c/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "kenny2automate/a947d7c/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "opentelemetry-python-contrib/6007e0c": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "opentelemetry-python-contrib/6007e0c/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "web2py/944d8bd": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "web2py/944d8bd/files/access.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "requests/74ea7cf": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "requests/74ea7cf/files/sessions.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "requests/74ea7cf/files/test_requests.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "aiohttp/1c33594": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "aiohttp/1c33594/files/web_urldispatcher.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "gradio/d76bcaa": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/d76bcaa/files/test_helpers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/test_helpers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/test_helpers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/test_helpers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/test_helpers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/queueing.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/d76bcaa/files/blocks.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "pyopenssl/e738186": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "pyopenssl/e738186/files/test_ssl.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "weblate/f6753a1": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "weblate/f6753a1/files/forms.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "vyper/55e18f6": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "vyper/55e18f6/files/functions.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "vyper/55e18f6/files/functions.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "vyper/019a37a": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "vyper/019a37a/files/functions.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "vyper/019a37a/files/functions.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "vyper/851f7a1": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "vyper/851f7a1/files/functions.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "apport/e5f78cc": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "apport/e5f78cc/files/ui.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "apport/e5f78cc/files/ui.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "apport/e5f78cc/files/test_ui.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "apport/e5f78cc/files/ui.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "vyper/049dbdc": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "vyper/049dbdc/files/core.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "vyper/2c73f83": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "vyper/2c73f83/files/core.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "pip/a4c735b": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "pip/a4c735b/files/download.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "pip/a4c735b/files/test_download.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "yt-dlp/de015e9": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "yt-dlp/de015e9/files/_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "yt-dlp/de015e9/files/test_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "yt-dlp/de015e9/files/test_YoutubeDL.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "yt-dlp/f8b4bcc": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "yt-dlp/f8b4bcc/files/_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "weixin-python/e54abad": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "weixin-python/e54abad/files/msg.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "weixin-python/e54abad/files/msg.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "weixin-python/e54abad/files/msg.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "weixin-python/e54abad/files/pay.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "keylime/387e320": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "keylime/387e320/files/tenant.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "keylime/387e320/files/tenant.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "keylime/bd5de71": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "keylime/bd5de71/files/tenant.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "keylime/bd5de71/files/tenant.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "omero-web/0168067": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "omero-web/0168067/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/0168067/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/0168067/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/0168067/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "omero-web/0168067/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "yt-dlp/1ceb657": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "yt-dlp/1ceb657/files/external.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "yt-dlp/1ceb657/files/cookies.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "yt-dlp/1ceb657/files/cookies.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "yt-dlp/1ceb657/files/cookies.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "efs-utils/f3a8f88": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "efs-utils/f3a8f88/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "efs-utils/f3a8f88/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "tlslite/aca8d4f": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "tlslite/aca8d4f/files/tlsrecordlayer.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "tlslite/aca8d4f/files/tlsrecordlayer.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "gradio/16fbe9c": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/blocks.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/16fbe9c/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "gradio/49d9c48": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/base.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/blocks.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/route_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/49d9c48/files/utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "gradio/ee1e294": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/base.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "gradio/ee1e294/files/processing_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "Flask-AppBuilder/eba517a": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "Flask-AppBuilder/eba517a/files/manager.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "Kiwi/6617cee": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "Kiwi/6617cee/files/devel.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "aiohttp/e4ae01c": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "aiohttp/e4ae01c/files/test_client_request.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "aiohttp/e4ae01c/files/test_client_request.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "aiohttp/e4ae01c/files/test_client_request.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "aiohttp/e4ae01c/files/test_client_request.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "aiohttp/e4ae01c/files/test_client_request.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "aiohttp/e4ae01c/files/test_client_request.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-561"
+                ]
+            }
+        ]
+    },
+    "cpython/8d0ef0b": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "cpython/8d0ef0b/files/test_urlparse.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "cpython/8d0ef0b/files/test_urlparse.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "django-anymail/1a6086f": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "django-anymail/1a6086f/files/test_mandrill_webhooks.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "django-nopassword/d8b4615": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "django-nopassword/d8b4615/files/settings.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "django-openipam/a6223a1": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "django-openipam/a6223a1/files/report.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "django-openipam/a6223a1/files/report.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "django-openipam/a6223a1/files/report.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "healthchecks/359edbd": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "healthchecks/359edbd/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "healthchecks/359edbd/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-688"
+                ]
+            }
+        ]
+    },
+    "ihatemoney/8d77cf5": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "ihatemoney/8d77cf5/files/models.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "minarca/7b5c7e6": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "minarca/7b5c7e6/files/test_minarca.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "minarca/7b5c7e6/files/test_minarca.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "minarca/7b5c7e6/files/test_minarca.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "minarca/7b5c7e6/files/test_minarca.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "minarca/7b5c7e6/files/test_minarca.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "mlflow/1da75df": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/1da75df/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "mlflow/438a450": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/438a450/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "mlflow/4bd7f27": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/4bd7f27/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "mlflow/8174250": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/8174250/files/test_databricks_artifact_repo.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/8174250/files/test_databricks_artifact_repo.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "mlflow/b9ab9ed": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/b9ab9ed/files/test_ftp_artifact_repo.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "mlflow/fae77a5": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "mlflow/fae77a5/files/test_uri.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "nsupdate.info/60a3fe5": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "nsupdate.info/60a3fe5/files/base.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "urllib3/a74c9cf": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "urllib3/a74c9cf/files/test_util.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "yt-dlp/f04b5be": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "yt-dlp/f04b5be/files/test_networking.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "flask-session-captcha/2811ae2": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "flask-session-captcha/2811ae2/files/test_flask_session_captcha.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "httplib2/bd9ee25": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/test_auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/bd9ee25/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "Radicale/059ba8d": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "Radicale/059ba8d/files/auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "Radicale/059ba8d/files/auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "Radicale/059ba8d/files/auth.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "gradio/41bd364": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/41bd364/files/networking.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "zulip/04cf68b": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "zulip/04cf68b/files/upload.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "zulip/04cf68b/files/upload.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "zulip/2f6c5a8": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "zulip/2f6c5a8/files/upload.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            },
+            {
+                "file_path": "zulip/2f6c5a8/files/upload.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-798"
+                ]
+            }
+        ]
+    },
+    "keycloak-httpd-client-install/07f26e2": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "keycloak-httpd-client-install/07f26e2/files/keycloak_cli.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            }
+        ]
+    },
+    "keycloak-httpd-client-install/c3121b2": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "keycloak-httpd-client-install/c3121b2/files/keycloak_cli.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            }
+        ]
+    },
+    "ldapcherry/6f98076": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "ldapcherry/6f98076/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-398"
+                ]
+            }
+        ]
+    },
+    "keylime/65c2b73": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "keylime/65c2b73/files/cloud_verifier_common.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-688"
+                ]
+            }
+        ]
+    },
+    "openmptcprouter-vps-admin/a01cbc8": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-688"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "openmptcprouter-vps-admin/a01cbc8/files/omr-admin.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "py7zr/1bb43f1": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "py7zr/1bb43f1/files/py7zr.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-688"
+                ]
+            },
+            {
+                "file_path": "py7zr/1bb43f1/files/py7zr.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "gradio/24a5836": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/24a5836/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "gradio/7ba8c5d": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/7ba8c5d/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "gradio/84802ee": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/84802ee/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/84802ee/files/route_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "gradio/e329f1f": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "gradio/e329f1f/files/routes.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "gradio/e329f1f/files/route_utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "pypdf/9b23ac3": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "pypdf/9b23ac3/files/_data_structures.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "pypdf/9b23ac3/files/_data_structures.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "wagtail/cfa11bb": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "wagtail/cfa11bb/files/fields.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "mlflow/63ef72a": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mlflow/63ef72a/files/file_store.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            },
+            {
+                "file_path": "mlflow/63ef72a/files/file_store.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "WARNING",
+                "cwes": [
+                    "CWE-476"
+                ]
+            }
+        ]
+    },
+    "ansible/ed56f51": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "ansible/ed56f51/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "ansible/ed56f51/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "bottle/6d7e13d": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "bottle/6d7e13d/files/bottle.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "crmsh/c538024": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "crmsh/c538024/files/utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "crmsh/c538024/files/utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "django-s3file/68ccd2c": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "django-s3file/68ccd2c/files/views.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "django/67b46ba": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "django/67b46ba/files/hashers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "django/67b46ba/files/hashers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "django/67b46ba/files/hashers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "django/67b46ba/files/hashers.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "glance/6ab0992": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "glance/6ab0992/files/test_api.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "glance/6ab0992/files/test_api.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "glance/6ab0992/files/test_api.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "httplib2/a1457cc": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "HIGH",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "httplib2/a1457cc/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "keystone/7691276": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "keystone/7691276/files/utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "keystone/7691276/files/utils.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "mechanize/dd05334": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "mechanize/dd05334/files/_urllib2_fork.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "mechanize/dd05334/files/_urllib2_fork.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "paramiko/fa29bd8": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "paramiko/fa29bd8/files/transport.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "paramiko/fa29bd8/files/transport.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "pysaml2/5e9d5ac": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "pysaml2/5e9d5ac/files/sigver.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "saleor/31bce88": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "saleor/31bce88/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "salt/5f8b5e1": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "salt/5f8b5e1/files/zeromq.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "salt/5f8b5e1/files/zeromq.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "tornado/1c36307": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "tornado/1c36307/files/web.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "tornado/1c36307/files/web.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "tornado/1c36307/files/websocket.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "tornado/1c36307/files/websocket.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "wagtail/3c0c646": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "wagtail/3c0c646/files/models.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "wagtail/3c0c646/files/models.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "web2py/a181b85": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "web2py/a181b85/files/default.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "web2py/a181b85/files/default.py",
+                "impact": "MEDIUM",
+                "likelihood": "MEDIUM",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    },
+    "werkzeug/00bc43b": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "werkzeug/00bc43b/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            },
+            {
+                "file_path": "werkzeug/00bc43b/files/__init__.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-328"
+                ]
+            }
+        ]
+    }
+}
