@@ -1,0 +1,36 @@
+{
+    "tornado/1c36307": {
+        "detected_files_meta_data": [
+            {
+                "file_path": "tornado/1c36307/files/web_test.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-079",
+                    "CWE-116"
+                ]
+            },
+            {
+                "file_path": "tornado/1c36307/files/web_test.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-079",
+                    "CWE-116"
+                ]
+            },
+            {
+                "file_path": "tornado/1c36307/files/web_test.py",
+                "impact": "MEDIUM",
+                "likelihood": "LOW",
+                "severity": "ERROR",
+                "cwes": [
+                    "CWE-079",
+                    "CWE-116"
+                ]
+            }
+		]
+	}
+}
